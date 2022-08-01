@@ -5,7 +5,7 @@ import { CompaniesList } from "./CompaniesList.js";
 config();
 const password = process.env.LINKEDIN_PASSWORD;
 const username = process.env.LINKEDIN_USERNAME;
-console.log(process.env.LINKEDIN_USERNAME);
+// console.log(process.env.LINKEDIN_USERNAME);
 
 let pending = 0;
 const automate = async () => {
